@@ -1,0 +1,233 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: arial;
+  }
+  .box_sign_in{
+    font-size: 120%;
+    width: 337px;
+    background:#fff;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    margin: auto;
+    margin-top: 70px;
+  }
+  .box_input_email{
+    margin-top:27px;
+    width: 100%; 
+    border: 1px solid rgba(0,0,0,.14);
+  }
+  .box_input_email input{
+    height: 37px;
+    width: calc(100% - 17px);
+    padding-left: 14px;
+    outline:none;
+    border: 0;
+  }
+  .box_input_email:active , .box_input_password:active{
+    border: 1px solid #2aaf62;
+  }
+  .box_input_password{
+    margin-bottom: 10px;
+    margin-top:29px;
+    height: 37px;
+    width: 100%;
+    display: flex;
+    border: 1px solid rgba(0,0,0,.14);
+  }
+  .box_input_password input{
+    height: 37px; 
+    width: calc(100% - 55px);
+    padding-left: 14px;
+    outline: none;
+    border: 0;
+  }
+  .border__radius{
+    border-radius: 4px;
+  }
+  .box__shadow{
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+  }
+  .cursor{
+    cursor:pointer;
+  }
+  .display__none{
+    display: none !important;
+  }
+  .display__block{
+    display: block;
+  }
+  .box_hide_show_pass{
+    width: 55px;
+  }
+  .box_hide_show_pass div{
+    width: 1.25rem;
+    height: .625rem;
+    padding:8px 0px 10px 0px;
+    margin: auto;
+  }
+  .login_text{
+    font-size: 120%;
+    margin-top: 3px;
+  }
+  .box_button_login{
+    border: 0;
+    width: 100%;
+    background: #2aaf62;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+    color:white;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    border-radius: .125rem;
+    opacity: 0.5 ;
+  }
+
+  .box_button_login.enable{
+    opacity: 1;
+    cursor:pointer;
+  }
+
+  .box_button_login.enable:active{
+    opacity: 0.8
+  }
+  .box_button_login p {
+    font-size: 90%
+  }
+  .forgot_password{
+    font-size: .75rem;
+    margin-top: 10px;
+    float: left;
+    color: #05a;
+    cursor:pointer;
+  }
+  .login_sms{
+    font-size: .75rem;
+    margin-top: 10px;
+    float: right; 
+    color: #05a;
+    cursor:pointer;
+  }
+  .clear__both{
+    clear: both;
+  }
+  .display__flex{
+    display: flex;
+  }
+  .line{
+    width: calc(50% - 24px);
+    height: 1px;
+    background:#ccc;
+    margin-top: 17px;
+  }
+  .or_text{
+    width: 48px;
+    text-align: center;
+    padding: 10px 0px 10px 0px;
+    font-size: 72%;
+  }
+  .or_text p{
+    color: #ccc;
+  }
+  .login_social .fb_box{
+    width: 32.2%;
+
+    background: #1877f2;
+    margin-right: 3%;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    border-radius: 2px;
+  }
+  .login_social .gg_box{
+    width: 32.2%;
+    height: 40px;
+    background: #2aaf62;
+    margin-right: 3%;box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    border-radius: 2px;
+  }
+  .login_social .ap_box{
+    width: 32.2%;
+    height: 40px;
+    background: black;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    border-radius: 2px;
+  }
+  .box_sign_in .login_social{
+    display: flex;
+    margin-top: 10px
+  }
+  .box_sign_up{
+    font-size: 86%;
+    text-align: center; 
+    margin-top: 37px;
+  }
+  .box_sign_up p{
+    font-size: 80%;
+    color: rgba(0,0,0,.26);
+  }
+  .box_sign_up p a{
+    color: #2aaf62;
+    font-weight: bold;
+    cursor: pointer;
+  }
+  .box_sign_in .text_login{
+    font-size: 120%;
+    text-align: center;
+    color: #2aaf62;
+    font-weight: bold;
+  }
+  .white_space{
+    width: 100%;height: 10px;background: white;
+  }
+  .box_error{
+    background: #fff9fa;
+    border: 1px solid rgba(255,66,79,.2);
+    padding: 15px;
+    display: flex;
+  }
+  .icon_error{
+    width: 20px;
+    height: 20px;
+  }
+  .text_error{
+    width: calc(100% - 20px);padding-left: 15px;
+  }
+  .text_error p{
+    font-size: 75%
+  }
+  .fb_box div{
+    width: 25px;
+    padding: 8px 5px 5px 5px;
+    display: flex;
+    align-items: center;
+  }
+  .fb_box div p{
+    font-size: 70%;
+    margin-left: 6px;
+    color: white;
+    margin-top: 2px;
+  }
+  .gg_box div{
+    width: 25px;
+    padding: 8px 5px 14px 15px;
+    display: flex;
+    align-items: center;
+  }
+  .gg_box div p{
+    font-size: 70%;
+    margin-left: 6px;
+    color: white;
+    margin-top: 2px;
+  }
+  .ap_box div{
+    width: 20px;
+    padding: 8px 5px 0px 19px;
+    display: flex;
+    align-items: center;
+  }
+  .ap_box div p{
+    font-size: 70%;
+    margin-left: 6px;
+    color: white;
+    margin-top: 2px;
+  }

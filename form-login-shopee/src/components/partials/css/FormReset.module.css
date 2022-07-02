@@ -1,0 +1,111 @@
+*{
+    padding: 0;
+    margin:0;
+    font-family: arial;
+  }
+  .box_sign_in{
+    font-size: 120%;
+    width: 337px;
+    background:#fff;
+    border-radius: 4px;
+    padding: 30px;
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+    margin: auto;
+    margin-top: 70px;
+  }
+  .box_input_email{
+    margin-top:15px;
+    width: 100%; 
+    border: 1px solid rgba(0,0,0,.14);
+  }
+  .box_input_email input{
+    height: 37px;
+    width: calc(100% - 17px);
+    padding-left: 14px;
+    outline:none;
+    border: 0;
+  }
+  .box_input_email:active , .box_input_password:active{
+    border: 1px solid #2aaf62;
+  }
+  .border__radius{
+    border-radius: 4px;
+  }
+  .box__shadow{
+    box-shadow: 0 3px 10px 0 rgb(0 0 0 / 14%);
+  }
+  .cursor{
+    cursor:pointer;
+  }
+  .display__none{
+    display: none !important;
+  }
+  .display__block{
+    display: block;
+  }
+  .box_button_reset{
+    border: 0;
+    width: 100%;
+    background: #2aaf62;
+    margin-top: 10px;
+    text-align: center;
+    padding: 12px 0px 12px 0px;
+    color:white;
+    box-shadow: 0 1px 1px rgb(0 0 0 / 9%);
+    border-radius: .125rem;
+    opacity: 0.5 ;
+    
+  }
+  .box_button_reset.enable{
+    opacity: 1;
+    cursor:pointer;
+  }
+  .box_button_reset.enable:active{
+    opacity: 0.8;
+  }
+  .box_button_reset p {
+    font-size: 90%
+  }
+
+  .clear__both{
+    clear: both;
+  }
+  .display__flex{
+    display: flex;
+  }
+  .box_sign_in .text_reset{
+    font-size: 120%;
+    text-align: center;
+    color: #2aaf62;
+    font-weight: bold;
+    margin: auto;
+  }
+  .white_space{
+    width: 100%;height: 10px;background: white;
+  }
+  .box_error{
+    background: #fff9fa;
+    border: 1px solid rgba(255,66,79,.2);
+    padding: 15px;
+    display: flex;
+  }
+  .icon_error{
+    width: 20px;
+    height: 20px;
+  }
+  .text_error{
+    width: calc(100% - 20px);padding-left: 15px;
+  }
+  .text_error p{
+    font-size: 75%
+  }
+
+  .back_icon{
+    width: 25px;height: 25px;float: left;padding-top: 4px
+  }
+
+
+
+
+
+  
